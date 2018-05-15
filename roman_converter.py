@@ -37,7 +37,7 @@ def help_call():
 
 Usage: python roman_converter.py number
 
-This program converts roman number to arabic number or arabic number to roman number, depend on input number 
+This program converts roman positive number (integer) to arabic number or arabic number to roman number, depend on input number 
 in command line argument
 
 - - -
@@ -140,7 +140,7 @@ def arabic_to_roman(arabic_number):
 
 def incorrect_format():
     print("""Unfortunately input is neither correct roman number nor arabic number.
-To help execute: roman_converter help""")
+To help execute: python roman_converter help""")
     exit(2)
 
 
